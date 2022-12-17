@@ -95,21 +95,29 @@ function mayorQueCincuenta(num)
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
-  // Tu código:
-     
+  // Tu código:      
+      var resto = x % y;
+  return resto;
 }
 
-function esPar(num) {
+function esPar(num) 
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+   if (num == par) {
+    return true;}
+    else {return false
+   
+      
 }
 
-function esImpar(num) {
+function esImpar(num) 
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num == impar) {
+    return true;}
+    else {return flase
   
 }
 
